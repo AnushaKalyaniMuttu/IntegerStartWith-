@@ -1,0 +1,2 @@
+list.stream().map(i->String.valueOf(i)).collect(Collectors.toList()).stream().filter(s->s.startWith("1"))
+.forEach(System.out.println);
